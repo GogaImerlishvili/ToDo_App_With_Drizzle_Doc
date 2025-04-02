@@ -11,7 +11,7 @@ interface Props {
 
 const Todos: FC<Props> = ({ todos }) => {
   // State to manage the list of todo items
-  const [todoItems, setTodoItems] = useState<todoType[]>(todos);
+  const [todoItems, setTodoItems] = useState<todoType[]>(todos); 
 
   // Function to create a new todo item
   const createTodo = (text: string) => {
